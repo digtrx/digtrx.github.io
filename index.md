@@ -7,7 +7,7 @@ layout: home
 This website is here to display all documentation in an easy to read format, with the ability to copy necessary code. Please use the menu on the left to navigate through the documentation.
 
 ## Capstone Project Summary
-This projects demonstrates how to setup a secure network that can allow authorized individuals to access resources on an organization's local network from any remote location using a modern browser.
+This project demonstrates how to setup a secure network that can allow authorized individuals to access resources on an organization's local network from any remote location using a modern web browser.
 
 More specifically, the project will accomplish the following goals:
 1. Configure a physical server with a Type 1 Hypervisor to host virtual machines.
