@@ -32,13 +32,25 @@ To perform an update, do the following:
 
 ## Create a super-user with a strong password
 *NOTE: It is a best practice to avoid using the root account unless it is **absolutely necessary**.*
-1. Create a new user with `adduser USERNAME`
-2. Make a strong password for the user account using `passwd USERNAME`
-3. Add the user to the "sudo" group using `usermod -aG sudo USERNAME`. 
+1. Create a new user:
+	```bash
+	adduser USERNAME
+	```
+2. Make a strong password for the user account:
+	```bash
+	passwd USERNAME
+	```
+3. Add the user to the "sudo" group:
+	```bash
+	usermod -aG sudo USERNAME
+	```
 	*This will allow us to execute commands as root when it is required.*
-4. Switch to the new user, and try to run some commands prefixed with "sudo" to see if you can run it as root:
+4. Switch to the new user. This command should display the username:
 	```bash
 	whoami
+	```
+5. This command should display "root":
+	```bash
 	sudo whoami
 	```
 
