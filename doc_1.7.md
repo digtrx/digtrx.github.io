@@ -245,7 +245,7 @@ DooM games use a "WAD" file that contains the necessary data to run the game. Ul
 	echo "desktop_ready command ran" >> $CUSTOMLOG
 	
 	# Assign the start command for psDooM to the "START_COMMAND" variable.
-	START_COMMAND="/home/kasm-default-profile/psdoom-ng/trunk/src/psdoom -iwad /usr/share/games/doom/doom2.wad -file /usr/share/games/doom/psdoom2.wad -psuser root -nomonsters -window -geometry 1600x1200"
+	START_COMMAND="/home/kasm-default-profile/psdoom-ng/trunk/src/psdoom -iwad /usr/share/games/doom/doom2.wad -file /usr/share/games/doom/psdoom2.wad -psuser root -nomonsters -window"
 	echo "START_COMMAND variable assigned" >> $CUSTOMLOG
 	
 	# Start psDooM.
